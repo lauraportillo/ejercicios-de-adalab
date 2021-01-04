@@ -1,0 +1,18 @@
+.item {
+  padding-top: 25px;
+  background: rgb(240, 133, 208);
+  text-align: center;
+  font-size: 36px;
+  font-style: arial;
+  border: 2px solid rgb(255, 8, 222);
+}
+
+.container {
+  background-color: rgb(168, 238, 255);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  border: 2px solid rgb(47, 60, 245);
+  flex-direction: row;
+  /*flex-direction: column;* PARA QUE SE VEAN EN filas*/
+}

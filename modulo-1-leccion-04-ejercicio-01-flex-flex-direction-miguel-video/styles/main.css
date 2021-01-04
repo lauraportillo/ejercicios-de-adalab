@@ -1,0 +1,28 @@
+* {
+  margin: 2px;
+  border: 2px solid blue;
+}
+.title {
+  margin-bottom: 20px;
+}
+.container {
+  background-color: aquamarine;
+}
+.item {
+  padding-top: 25px;
+  background: white;
+  text-align: center;
+  font-size: 36px;
+  font-style: arial;
+}
+.page {
+  background-color: thistle;
+}
+
+/* flex */
+
+.container {
+  width: 500;
+  display: flex;
+  justify-content: space-around;
+}

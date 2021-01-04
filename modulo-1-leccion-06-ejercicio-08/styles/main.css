@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+.box {
+  background: red;
+  /* 100% de ancho y 100% de alto*/
+  width: 100vw;
+  height: 100vh;
+}
+
+/*MEDIAQUERIES*/
+
+@media all and (min-width: 480px) {
+  .box {
+    background: yellow;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .box {
+    background: green;
+  }
+}

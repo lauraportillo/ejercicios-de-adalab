@@ -1,0 +1,24 @@
+span,
+p {
+  background-color: #fdb8f4;
+}
+.exercise1block {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+.exercise2inline {
+  display: inline;
+  height: 100px;
+  width: 100px;
+}
+.exercise3inline-block {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+.exercise4none {
+  display: none;
+  height: 100px;
+  width: 100px;
+}

@@ -1,0 +1,22 @@
+/* reset styles */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+}
+
+.list {
+  /*padding: 0;*/
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.list-item {
+  padding: 0px 12px 0px 12px;
+  color: darkmagenta;
+}

@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tab {
+  text-transform: capitalize;
+}
+
+.body {
+  background-color: rgb(194, 189, 189);
+}
+
+.title-header {
+  margin-bottom: 20px;
+}
+
+.menu {
+  background-color: rgb(153, 255, 0);
+  width: 100vw;
+}
+.menu-item {
+  color: blue;
+}
+
+.main {
+  background-color: yellow;
+}
+
+.title-main {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*MEDIA QUIERIES*/
+@media all and (min-width: 480px) {
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  .menu {
+    background-color: rgb(153, 255, 0);
+    width: 30vw;
+  }
+
+  .body {
+    background-color: rgb(194, 189, 189);
+    display: flex;
+    margin-top: 150px;
+  }
+
+  .main {
+  }
+}
